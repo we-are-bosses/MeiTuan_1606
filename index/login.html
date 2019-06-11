@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>美团网账号登录 - 手机美团官网</title>
+		<link rel="icon" type="image/x-icon" href="favicon.ico"/>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/login.css"/>
+		<link rel="stylesheet" type="text/css" href="http://at.alicdn.com/t/font_1230006_xd5mtmmoahp.css"/>
+	</head>
+	<body>
+		<!--顶部-->
+		<header>
+			<div class="headerTop clearfix">
+				<i class="iconfont icon-daohang-copy fl"></i>
+				<span class="header-title">美团网</span>
+				<span class="header-nav fr" id="header-nav">
+					<i class="iconfont icon-daohang1"></i>
+					导航
+				</span>
+			</div>
+			<!--导航的弹框-->
+			<div class="nav" id="nav">
+				<dl>
+					<dd>
+						<i class="iconfont icon-51"></i>
+						首页
+					</dd>
+					<dd>
+						<i class="iconfont icon-wode"></i>
+						我的
+					</dd>
+					<dd>
+						<i class="iconfont icon-xiazai17"></i>
+						搜索
+					</dd>
+				</dl>
+			</div>
+		</header>
+		<!--主体-->
+		<div class="main">
+			<div class="main-hd clearfix">
+				<div class="meilogin fl" id="meilogin">美团账号登录</div>
+				<div class="phologin fr" id="phologin">手机验证登录</div>
+			</div>
+			<div class="main-bd bd1" id="bd1">
+				<div class="username">
+					<input type="text" placeholder="账户名/手机号/Email" />
+				</div>
+				<div class="password">
+					<input type="password" placeholder="请输入您的密码" />
+				</div>
+			</div>
+			<div class="main-bd bd2" id="bd2">
+				<div class="username">
+					<input type="text" placeholder="请输入手机号" />
+					<a href="#" class="fr">获取验证码</a>
+				</div>
+				<div class="password">
+					<input type="password" placeholder="请输入短信验证码" readonly="readonly"/>
+				</div>
+			</div>
+		</div>
+		<!--登录按钮-->
+		<button class="loginbtn btn1" id="btn1">登录</button>
+		<button class="loginbtn btn2" id="btn2">登录</button>
+		<!--底部链接-->
+		<div class="subline">
+			<a href="#" class="nowreg fl">立即注册</a>
+			<a href="#" class="findpwd fr">找回密码</a>
+		</div>
+	<script type="text/javascript" src="js/login.js" ></script>
+	</body>
+</html>

@@ -1,0 +1,130 @@
+body {
+	background: #f0efed;
+}
+/*顶部开始啦*/
+header {
+	width: 100%;
+	height: 40px;
+	position: relative;
+}
+.headerTop {
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	background: #06C1AE;
+	color: #fff;
+	padding-left: 10px;
+	text-align: center;
+}
+/*导航的弹框*/
+.nav {
+	display: none;
+	width: 20%;
+	background: #06C1AE;
+	position: absolute;
+	top: 40px;
+	right: 0;
+}
+.nav dd {
+	height: 40px;
+	line-height: 40px;
+	color: #fff;
+	text-align: center;
+	border-bottom: 1px solid #21897d;
+}
+.nav dd:last-child {
+	border-bottom: 0;
+}
+/*主体*/
+.main {
+	width: 100%;
+	background: #fff;
+}
+.main .main-hd {
+	width: 100%;
+	height: 42px;
+	border-bottom: 4px solid #DDD8CE;
+	display: flex;
+}
+.main .main-hd div {
+	flex: 1;
+	height: 42px;
+	line-height: 42px;
+	color: #333333;
+	text-align: center;
+}
+.main .main-hd .meilogin {
+	color: #06c1ae;
+	border-bottom: 4px solid #06C1AE;
+}
+.main .main-hd .phologin {
+	/*width: 50%;*/
+}
+/*主体身体部分*/
+.main-bd {
+	width: 100%;
+}
+.bd1 {
+	display: block;
+}
+.bd2 {
+	display: none;
+}
+.main-bd div {
+	width: 100%;
+	border-bottom: 1px solid #DDD8CE;
+	padding: 14px 10px;
+}
+.main-bd input {
+	width: 100%;
+	height: 25px;
+	color: #333;
+	padding-left: 5px;
+	border-radius: 5px;
+}
+.main-bd input:focus {
+	background: #ececec;
+}
+.bd2 .username input {
+	width: 70%;
+}
+.bd2 .username a {
+	display: inline-block;
+	width: 25%;
+	line-height: 25px;
+	background: #dcdcdc;
+	color: #999;
+	border-radius: 3px;
+	text-align: center;
+}
+.bd2 .password input {
+	background: #ececec;
+}
+/*登录按钮*/
+.loginbtn {
+	display: block;
+	width: 90%;
+	height: 40px;
+	margin: 10px auto 0;
+	background: #06c1ae;
+	border: 0;
+	outline: 0;
+	color: #fff;
+	font-size: 16px;
+	border-radius: 3px;
+}
+.btn1 {
+	display: block;
+}
+.btn2 {
+	display: none;
+	background: #dcdcdc;
+}
+/*底部连接*/
+.subline {
+	margin-top: 10px;
+}
+.subline a {
+	color: #06C1AE;
+	font-size: 12px;
+}
