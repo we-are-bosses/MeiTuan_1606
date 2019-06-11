@@ -1,0 +1,133 @@
+/*======== reset css ========*/
+*, *::before, *::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	tap-highlight-color: transparent;
+	-webkit-tap-highlight-color: transparent;
+}
+html {
+	min-width: 320px;
+}
+body {
+	font-size: 14px;
+	font-family: "微软雅黑", sans-serif;
+	color: #333;
+}
+ul, ol {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	color: #333;
+}
+input, textarea {
+	border: none;
+	outline: none;
+	resize: none;
+	/*清除元素外观*/
+	-webkit-appearance: none;
+}
+
+/*======== common css ========*/
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.clearfix::before, .clearfix::after {
+	content: "";
+	display: block;
+	visibility: hidden;
+	height: 0;
+	line-height: 0;
+	clear: both;
+}
+/*使用精灵图的公用样式*/
+/*[class^="icon_"], [class*=" icon_"] {
+	background-repeat: no-repeat;
+	background-image: url();
+	background-size: 200px 200px;
+}*/
+
+/*底部开始啦*/
+footer {
+	width: 100%;
+	margin-top: 10px;
+	padding: 0 20px 40px;
+	font-size: 12px;
+}
+footer .footer-bar {
+	width: 100%;
+	margin-bottom: 40px;
+}
+footer .footer-bar a {
+	display: inline-block;
+	width: 20%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #06C1AE;
+	border: 1px solid #06c1ae;
+	border-radius: 5px;
+	margin-right: 10px;
+}
+footer .footer-bar .city {
+	width: 40%;
+}
+footer .footer-bar .city span {
+	font-size: 16px;
+	margin-right: 10px;
+}
+footer .footer-bar .city .nowcity {
+	width: 50%;
+}
+footer .footer-nav{
+	width: 100%;
+	margin-bottom: 18px;
+}
+footer .footer-nav ul {
+	width: 100%;
+}
+footer .footer-nav ul li { 
+	float: left;
+	width: 20%;
+	border-right: 1px solid #666;
+	text-align: center;
+}
+footer .footer-nav ul li a {
+	color: #06C1AE;
+}
+footer .footer-links {
+	width: 70%;
+    margin: 0 auto 30px;
+    line-height: 24px;
+    text-align: center;
+}
+footer .footer-links a {
+	color: #06C1AE;
+}
+footer .footer-copyright {
+	width: 100%;
+	padding: 0 15px;
+	position: relative;
+}
+footer .footer-copyright .hr {
+	width: 100%;
+	height: 1px;
+	background: #999;
+}
+footer .footer-copyright .footer-copyright-text {
+	position: absolute;
+	top: -8px;
+	left: 50%;
+	margin-left: -100px;
+	background: #f0efed;
+	padding: 0 10px;
+	color: #999;
+}
+footer .footer-copyright .footer-copyright-text a {
+	color: #999;
+}

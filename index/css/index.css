@@ -1,0 +1,236 @@
+body {
+	background-color: #f2f0f0;
+}
+input::-webkit-input-placeholder {
+	color: #68dbce;
+}
+input::-moz-placeholder {
+	color: #68dbce;
+}
+/*版心*/
+/*.container {
+	min-width: 320px;
+	max-width: 640px;
+	width: 100%;
+	margin: 0 auto;
+}*/
+/*顶部搜索*/
+.search {
+	width: 100%;
+	height: 40px;
+}
+/*内容居中*/
+.search .search_box {
+	height: 40px;
+	background: #06c1ae;
+	position: relative;
+}
+.search .search_box .address {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 65px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #fff;
+	background: url(../img/turn-down.png) no-repeat right center/10px 8px;
+}
+.search .search_box form {
+	width: 100%;
+	padding-left: 75px;
+	padding-right: 70px;
+}
+.search .search_box form input {
+	width: 100%;
+	height: 30px;
+	margin-top: 5px;
+	background: url(../img/search.png) no-repeat 10px center/15px 15px;
+	background-color: #05a494;
+	padding-left: 35px;
+}
+.search .search_box .mine {
+	position: absolute;
+	right: 10px;
+	top: 0;
+	width: 50px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #fff;
+}
+/*背景图*/
+.banner {
+	width: 100%;
+	position: relative;
+}
+.banner img {
+	display: block;
+	width: 100%;
+}
+.banner a {
+	display: block;
+	width: 31%;
+	height: 34%;
+	position: absolute;
+	bottom: 13%;
+}
+.banner a.open {
+	left: 17%;
+}
+.banner a.down {
+	right: 17%;
+}
+/*导航栏*/
+.nav {
+	width: 100%;
+	background: #fff;
+	border-top: 1px solid #DDD8CE;
+	border-bottom: 1px solid #DDD8CE;
+}
+.nav ul {
+	width: 100%;
+}
+.nav ul li {
+	width: 20%;
+	float: left;
+	text-align: center;
+	padding: 10px;
+}
+.nav ul li a {
+	display: block;
+	width: 100%;
+}
+.nav ul li a .nav-img {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin: 0 auto;
+	padding-top: 8px;
+}
+.nav .img1 {
+	background-color: #fd9d21;
+}
+.nav .img2 {
+	background-color: #ff6767;
+}
+.nav .img3 {
+	background-color: #8a90fa;
+}
+.nav .img4 {
+	background-color: #fed030;
+}
+.nav .img5 {
+	background-color: #fd9d21;
+}
+.nav .img6 {
+	background-color: #fed030;
+}
+.nav .img7 {
+	background-color: #4dc6ee;
+}
+.nav .img8 {
+	background-color: #ff80c2;
+}
+.nav .img9 {
+	background-color: #fd9d21;
+}
+.nav .img10 {
+	background-color: #00d3be;
+}
+.nav ul li a .nav-img i {
+	text-align: center;
+	font-size: 30px;
+	color: #fff;
+}
+.nav ul li a span {
+	font-size: 12px;
+	color: #525252;
+}
+/*猜你喜欢*/
+.recommend {
+	width: 100%;
+	background: #fff;
+}
+.recommend_hd {
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	margin-top: 10px;
+	border-bottom: 1px solid #DDD8CE;
+}
+.recommend_hd h3 {
+	display: inline-block;
+	margin-left: 5px;
+	font-size: 16px;
+	vertical-align: top;
+	font-weight: 400;
+}
+.recommend_bd {
+	width: 100%;
+}
+.desc {
+	width: 100%;
+	padding: 14px 0;
+	border-bottom: 1px solid #DDD8CE;
+	cursor: pointer;
+}
+.desc .recom_img {
+	float: left;
+	width: 16%;
+	margin-left: 10px;
+}
+.desc .recom_img a {
+	display: block;
+	width: 100%;
+}
+.desc .recom_img a img {
+	display: block;
+	width: 100%;
+}
+.desc .recom_info {
+	float: right;
+	width: 80%;
+}
+.desc .recom_info a {
+	display: block;
+	font-size: 1rem;
+	color: #181818;
+}
+.desc .recom_info p {
+	font-size: 0.8rem;
+	width: 100%;
+	height: 100%;
+	color: #979797;
+}
+.desc .recom_info .sale {
+	width: 100%;
+	line-height: 1.5;
+	position: relative;
+}
+.desc .recom_info .sale .nowprice {
+	font-size: 20px;
+	color: #06c1ae;
+}
+.desc .recom_info .sale .price , .desc .recom_info .sale .salenum {
+	font-size: 12px;
+	color: #666;
+}
+.desc .recom_info .sale .salenum {
+	position: absolute;
+	right: 5%;
+	bottom: 3px;
+}
+/*查看更多*/
+.recommend .more {
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #DDD8CE;
+	padding: 0 10px;
+	cursor: pointer;
+}
+.recommend .more a {
+	color: #06c1ae;
+	font-size: 16px;
+}
