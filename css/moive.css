@@ -1,0 +1,202 @@
+body
+{
+    margin: 0;
+}
+header
+{
+    width: 100%;
+    height: 12%;
+    color: #fff;
+    background: #06c1ae;
+    height: 3.5rem;
+}
+header div
+{
+    text-align: center;
+    line-height: 3.5rem;
+}
+.top
+{
+    width: 100%;
+    height: 3rem;
+    text-align: center;
+    line-height: 2.9rem;
+    border-bottom: 1px solid #e6e6e6;
+    font-size: 14px;
+    color: #666;
+    overflow: hidden;
+}
+.top div
+{
+    display: inline-block;
+    padding: 0 1rem;
+    font-weight: 700;
+}
+.top .reasch
+{
+    position: absolute;
+    right: 0;
+    top: 4rem;
+}
+.content
+{
+    padding: 1rem;
+    font-size: 13px;
+    position: relative;
+    border-bottom: 1px solid #e6e6e6;
+}
+.content div
+{
+    display: inline-block;
+}
+.content .img
+{
+    width: 4rem;
+    height: 6.1rem;
+}
+.content .img img
+{
+    width: 100%;
+    height: 100%;
+}
+.content .expection
+{
+    width: 58%;
+    height: 6rem;
+    vertical-align: top;
+    overflow: hidden;
+    position: absolute;
+    left: 5.3rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.content .expection p
+{
+    margin: 0.4rem 0;
+}
+.content .expection span
+{
+    font-weight: 700;
+    color: #faaf00;
+    font-size: 15px;
+}
+h3
+{
+    display: inline;
+}
+.content .buy
+{
+    position: absolute;
+    width: 47px;
+    height: 27px;
+    line-height: 28px;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: #f03d37;
+    color: #fff;
+    border-radius: 4px;
+    white-space: nowrap;
+    font-size: 12px;
+    cursor: pointer;
+    right: 1rem;
+    top: 3rem;
+}
+.content .will-buy
+{
+    position: absolute;
+    width: 47px;
+    height: 27px;
+    line-height: 28px;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: #3c9fe6;
+    color: #fff;
+    border-radius: 4px;
+    white-space: nowrap;
+    font-size: 12px;
+    cursor: pointer;
+    right: 1rem;
+    top: 3rem;
+}
+.hot
+{
+    display: block;
+}
+.ing
+{
+    margin: 1rem;
+    background-color: #f5f5f5;
+    display: none;
+}
+.ing ul
+{
+    list-style: none;
+    padding: 0;
+    width: auto;
+    height: 11rem;
+    overflow: -webkit-paged-x;
+    white-space: nowrap;
+}
+.ing ul li 
+{
+    float: left;
+    padding: 0 1rem 0 0;
+    width: 5.5rem;
+    white-space: nowrap;
+    position: relative
+}
+.ing ul li img
+{
+    width: 5.5rem;
+}
+.ing ul li .ve
+{
+    position: absolute;
+    padding: 0.3rem;
+    background: rgba(61,63,71,.6);
+}
+.ing ul li span
+{
+position: absolute;
+left: 4px;
+bottom: 9px;
+color: #faaf00;
+font-size: 11px;
+font-weight: 600;
+}
+.ing ul li p
+{
+    margin: 0;
+    text-overflow: ellipsis;
+    width: 5.5rem;
+    overflow: hidden;
+}
+.ing .name
+{
+    font-size: 13px;
+    color: #222;
+}
+.ing .date
+{
+    font-size: 12px;
+    color: #999;
+}
+.bottom
+{
+    display: flex;
+    position: fixed;
+    height: 3rem;
+    background: #fff;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    line-height: 3rem;
+}
+.bottom div
+{
+    flex: 1;
+}
+.bottom i
+{
+    font-size: 12px;
+}
