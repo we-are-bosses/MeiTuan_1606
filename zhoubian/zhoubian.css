@@ -1,0 +1,272 @@
+
+
+ul{
+    display: inline-block;
+    list-style-type: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+}
+body{
+    margin: 0;
+    cursor: pointer;
+}
+
+.z-head-contain{
+    display: flex;
+    width: 100%;
+    height: 3.5rem;
+    background-color:rgb(6,193,174);
+    justify-content: space-between;
+    align-items: center;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+
+.z-back{
+    border-left: 0.2rem solid white;
+    border-bottom: 0.2rem solid white;
+    transform: rotate(45deg);
+    text-decoration: none;
+    margin-left:.5rem ;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+
+.icon-th-list-contain{
+    margin: 1.9rem 0.7rem 0 0;
+    text-decoration: none;
+}
+
+.icon-th-list-contain:focus  +.z-nav-list{
+    visibility: visible;
+    height: 84.75px;
+}
+
+.z-head-text{
+    font-size:1.3rem;
+    color: white;
+}
+
+.z-nav-list{
+    position: absolute;
+    top: 3.5rem;
+    height: 0;
+    right: 0;
+    background-color:rgba(31,199,182,.8) ;
+    text-align: center;
+    width: 6rem;
+    overflow: hidden;
+    transition: .3s linear;
+    visibility: hidden;
+    z-index: 99;
+}
+
+
+
+.nav-hr{
+    border-bottom: 1px solid rgb(56,149,138);
+    width: 100%;
+    padding: .7rem;
+}
+.z-nav-text{
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.z-nav-list img{
+    width: 1.5rem;
+    height: 1.5rem;
+    float: left;
+}
+
+.icon-th-list,.icon-th-list:before,.icon-th-list:after{
+    display: inline-block;
+    height: 8px;
+    width: 3px;
+    border-left:9px solid white;
+    border-right:21px solid white;
+    position: absolute;
+    top:0.3rem;
+    right:.5rem;
+}
+.icon-th-list:before{
+    content: '';
+    top:12px;
+    left:-9px;
+}
+.icon-th-list:after{
+    content: '';
+    left:-9px;
+    top:24px;
+}
+
+
+.z-ul-nav{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 3.5rem;
+    top: 3.5rem;
+    background-color: white;
+    justify-content: space-around;
+    border-top: 1px solid black;
+}
+
+.z-ul-nav .z-li{
+    position: relative;
+    display:flex;
+    width: 25%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    animation-fill-mode : forwards;
+}
+
+
+.z-li-text{
+    outline: none;
+    border-style: none;
+    background-color:white ;
+    font-size: .8rem;
+}
+
+ .z-li-text:focus{
+     color: rgb(6,193,174);
+ }
+.z-li-text:focus:after{
+    border-bottom-color:rgb(6,193,174);
+    transform: rotate(180deg);
+}
+
+.z-li-text:focus +.z-round{
+    display: block;
+}
+
+.z-li-text:focus +.z-round2{
+    left: -100%;
+}
+.z-li-text:focus +.z-round3{
+    left: -200%;
+}
+
+
+
+
+.z-li-text:after{
+    content: " ";
+    width: 0;
+    height: 0;
+    display: inline-block;
+    border-left: 0.3rem solid transparent;
+    border-right: 0.3rem solid transparent;
+    border-bottom: .5rem solid rgb(166,166,166);
+    margin-left: .4rem;
+}
+.z-li:before{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: .2rem;
+    height: 2.64rem;
+    background-color: #e7e7e7;
+    -webkit-transform: translate(0,-50%) scale(.5);
+}
+
+.z-li-index:before{
+    display: none;
+}
+
+.z-round{
+    position: absolute;
+    top: 3.5rem;
+    width: 400%;
+    left:0;
+    display: none;
+}
+
+.z-round li{
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.z-round-nav{
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 1rem;
+}
+
+.z-select{
+    position: absolute;
+    width: 400%;
+    top: 3.5rem;
+    left: -300%;
+    display: none;
+}
+
+.z-radio:checked +.choose-text{
+    background-color: #518cff;
+    color: white;
+}
+
+.z-li-text:focus  +.z-select{
+    display: block;
+}
+
+.z-style{
+    width: 100%;
+    background-color: white;
+}
+.z-style li{
+    position: relative;
+    display: inline-flex;
+    width: 24%;
+    height: 4rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.choose-text{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4.5rem;
+    height: 2rem;
+    border: 1px solid rgb(226,229,226);
+    border-radius: .33333rem;
+    font-size: .9rem;
+    background-color: white;
+}
+
+
+.z-radio{
+    position: absolute;
+    width: 4.5rem;
+    height: 2rem;
+    opacity: 0;
+}
+
+
+.z-select-title{
+    margin-left: 1rem;
+}
+
+.z-round>:first-child{
+    background-color:rgb(244,244,244);
+}
+
+.z-round>:first-child .z-round-nav
+{
+    color: rgb(6,193,174);
+
+}
+
+
