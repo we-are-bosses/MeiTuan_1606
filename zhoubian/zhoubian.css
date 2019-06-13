@@ -30,8 +30,8 @@ body{
     transform: rotate(45deg);
     text-decoration: none;
     margin-left:.5rem ;
-    width: 1.5rem;
-    height: 1.5rem;
+    min-width: 1.5rem;
+    min-height: 1.5rem;
 }
 
 
@@ -67,7 +67,7 @@ body{
 
 
 .nav-hr{
-    border-bottom: 1px solid rgb(56,149,138);
+    border-bottom: 1px solid rgb(56, 149, 138);
     width: 100%;
     padding: .7rem;
 }
@@ -110,11 +110,13 @@ body{
     position: fixed;
     display: flex;
     width: 100%;
+    z-index: 98;
     height: 3.5rem;
     top: 3.5rem;
     background-color: white;
     justify-content: space-around;
-    border-top: 1px solid black;
+    border-top: 1px solid rgb(6,193,174);
+    border-bottom: 1px solid rgb(6,193,174);
 }
 
 .z-ul-nav .z-li{
@@ -133,6 +135,7 @@ body{
     border-style: none;
     background-color:white ;
     font-size: .8rem;
+    white-space: nowrap;
 }
 
  .z-li-text:focus{
@@ -189,6 +192,8 @@ body{
     width: 400%;
     left:0;
     display: none;
+    background-color: white;
+
 }
 
 .z-round li{
@@ -202,6 +207,7 @@ body{
     text-decoration: none;
     display: inline-block;
     margin-left: 1rem;
+    color: black;
 }
 
 .z-select{
@@ -210,6 +216,7 @@ body{
     top: 3.5rem;
     left: -300%;
     display: none;
+    background-color: white;
 }
 
 .z-radio:checked +.choose-text{
@@ -269,4 +276,117 @@ body{
 
 }
 
+.z-scenery{
+    position: absolute;
+    width:100%;
+    top: 7.2rem;
+}
 
+.z-scenery-u{
+    width: 100%;
+}
+.z-scenery-u li{
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+    height: 5rem;
+    margin-bottom: 1rem;
+}
+
+.z-img{
+    width:6rem;
+    float: left;
+    height: 5rem;
+}
+
+.zs-adress{
+    font-size: .8rem;
+    color: white;
+    width:100%;
+    float: left;
+    margin-left: .4rem;
+    white-space: nowrap;
+}
+
+.z-piao{
+    background-color: #518cff;
+}
+
+.z-taocan{
+    background-color:orange ;
+}
+
+.z-destination{
+    color: black;
+    font-size: .9rem;
+}
+
+.z-xian{
+    background-color: #6affee;
+}
+
+.icon-star{
+    overflow: hidden;
+    white-space: nowrap;
+    height: 1.4rem;
+}
+.z-star:after{
+    content: "★";
+    color: #FFA500;
+    font-size: 1.2rem;
+}
+
+.z-star-gray:after{
+    content: "★";
+    color:gray;
+    font-size: 1.2rem;
+}
+
+.z-score{
+    font-size: .8rem;
+    color: #FFA500;
+}
+.zs-adress-contain{
+    display: inline-block;
+}
+
+.zs-textcontain{
+
+    display: inline-flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 5rem;
+    margin-left: .5rem;
+}
+
+.z-pricestyle{
+    font-size: 1.2rem;
+    color: #06c1ae;
+}
+
+.z-priceword{
+    color: black;
+    font-size: .8rem;
+}
+
+
+.z-star-right{
+    font-size: .6rem;
+    color: black;
+    float: right;
+    margin-right: 7.5rem;
+}
+
+.price-right{
+    font-size: .9rem;
+    color: black;
+    float: right;
+    margin-right: 7.5rem;
+
+}.z-price{
+    width: 100%;
+     white-space: nowrap;
+    overflow: hidden;
+    height: 1.4rem;
+ }
