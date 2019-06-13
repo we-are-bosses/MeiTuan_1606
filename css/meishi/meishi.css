@@ -35,12 +35,12 @@ li {
 
 @font-face {
   font-family: 'iconfont';
-  src: url('../font_1230159_sepnx860gs/iconfont.eot');
-  src: url('../font_1230159_sepnx860gs/iconfont.eot?#iefix') format('embedded-opentype'),
-      url('../font_1230159_sepnx860gs/iconfont.woff2') format('woff2'),
-      url('../font_1230159_sepnx860gs/iconfont.woff') format('woff'),
-      url('../font_1230159_sepnx860gs/iconfont.ttf') format('truetype'),
-      url('../font_1230159_sepnx860gs/iconfont.svg#iconfont') format('svg');
+  src: url('../../font/iconfont.eot');
+  src: url('../../font/iconfont.eot?#iefix') format('embedded-opentype'),
+      url('../../font/iconfont.woff2') format('woff2'),
+      url('../../font/iconfont.woff') format('woff'),
+      url('../../font/iconfont.ttf') format('truetype'),
+      url('../../font/iconfont.svg#iconfont') format('svg');
 }
 
 body {
