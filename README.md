@@ -4,7 +4,7 @@
 
 凌大森：lingdasen   //`刚合并文件，如果有问题（上个版本文件在。copy分支里） 可以回退，或者你们自己再修改。建议写代码先pull 这个分支`
 
-刘瑾婷：Trista829
+刘瑾婷：Trista829   //将index中的href添加上，使之与其他网页链接
 
 陆淑烨：huangjingyuve
 
