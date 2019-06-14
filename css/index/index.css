@@ -34,7 +34,7 @@ input::-moz-placeholder {
 	line-height: 40px;
 	text-align: center;
 	color: #fff;
-	background: url(../img/turn-down.png) no-repeat right center/10px 8px;
+	background: url(../../images/index/turn-down.png) no-repeat right center/10px 8px;
 }
 .search .search_box form {
 	width: 100%;
@@ -45,7 +45,7 @@ input::-moz-placeholder {
 	width: 100%;
 	height: 30px;
 	margin-top: 5px;
-	background: url(../img/search.png) no-repeat 10px center/15px 15px;
+	background: url(../../images/index/search.png) no-repeat 10px center/15px 15px;
 	background-color: #05a494;
 	padding-left: 35px;
 }
