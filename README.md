@@ -10,7 +10,7 @@
 
 肖钰：itsxiaoyu
 
-张杰：Mr-ZhangJhao //修改页面代码，并持续更新在zj分支中，完成后将合并入master分支
+张杰：Mr-ZhangJhao //修改页面代码，并更新
 
 戴绵林：mianlin
 
