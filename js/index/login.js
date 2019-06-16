@@ -1,7 +1,7 @@
 function my$(id) {
     return document.getElementById(id);
 }
-
+// s
 my$("meilogin").onclick = function(){
 	my$("meilogin").style.borderBottom = "4px solid #06C1AE";
 	my$("phologin").style.borderBottom = "none";
