@@ -1,4 +1,7 @@
 
+#zs-contain{
+    position:relative;
+}
 
 ul{
     display: inline-block;
@@ -106,20 +109,20 @@ body{
 }
 
 
-.z-ul-nav{
-    position: fixed;
+#z-ul-nav{
+    position: absolute;
     display: flex;
     width: 100%;
     z-index: 98;
     height: 3.5rem;
-    top: 3.5rem;
+    top:0;
     background-color: white;
     justify-content: space-around;
     border-top: 1px solid rgb(6,193,174);
     border-bottom: 1px solid rgb(6,193,174);
 }
 
-.z-ul-nav .z-li{
+#z-ul-nav .z-li{
     position: relative;
     display:flex;
     width: 25%;
@@ -276,10 +279,10 @@ body{
 
 }
 
-.z-scenery{
-    position: absolute;
+#z-scenery{
+    position: relative;
     width:100%;
-    top: 7.2rem;
+    top: 4.2rem;
 }
 
 .z-scenery-u{
