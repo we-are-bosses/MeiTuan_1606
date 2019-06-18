@@ -1,0 +1,127 @@
+.xz-body{
+    margin: 0;
+    background: rgb(240,239,237);
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(6,193,176);
+    text-align: center;
+    align-items:center;
+    justify-content: space-around;
+    height: 3.2rem;
+}
+.nav-wrap-left{
+}
+.nav-wrap-left img{
+    width: 1.6rem;
+    height: auto;
+}
+.nav-header{
+    width: 66%;
+    color: white;
+    font-size: 1.1rem;
+}
+.nav-wrap-right{
+    color: white;
+    font-size: 0.8rem;
+
+}
+.nav-wrap-right img{
+    width: 1.4rem;
+    height: auto;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.box-top{
+    border: 1px solid rgb(220,219,217);
+    width: 94%;
+    margin-top: 0.6rem;
+    margin-left: 2.5%;
+    display: flex;
+    align-items:center;
+    height: 2.3rem;
+    background-color: white;
+    text-align: center;
+
+}
+.box-top a{
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    color: black;
+}
+.wrapper h4{
+    width: 4rem;
+    display: inline-block;
+    margin-left: 3%;
+    font-weight: normal;
+    margin-block-end: 0;
+}
+.box-ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items:center;
+    flex-wrap: wrap;
+    padding-inline-start: 0;
+    margin-block-end: 0;
+    margin-left: 0.9rem;
+}
+.box-li{
+    display: flex;
+    border: 0.5px solid rgb(220,219,217);
+    background-color: white;
+    align-items:center;
+    text-align: center;
+    width: 32%;
+    height: 2.4rem;
+}
+.box-li a{
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    font-size: 0.9rem;
+}
+
+.footer-bar{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+
+}
+.footer-bar a{
+    text-decoration: none;
+    border: 1px solid rgb(6,193,176);
+    width: 4rem;
+    height: 1.6rem;
+    margin-left: 1rem;
+    line-height: 1.6rem;
+    color: rgb(6,193,176);
+    border-radius: 3px;
+
+}
+.bar-div{
+    margin-left: 17%;
+}
+.bar-div a{
+    display: inline-block;
+    width: 5.5rem;
+    height: 1.6rem;
+    margin-left: 0.3rem;
+}
+.fnav-ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items:center;
+}
