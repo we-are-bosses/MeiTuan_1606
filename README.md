@@ -6,7 +6,7 @@
 
 刘瑾婷：Trista829   //将index中的href添加上，使之与其他网页链接，login添加js效果 /index.html
 
-陆淑烨：huangjingyuve  //添加JS，使网页拥有动态效果
+陆淑烨：huangjingyuve  //添加JS，使网页拥有动态效果，更新moive.html
 
 肖钰：itsxiaoyu //detail.html
 
