@@ -8,13 +8,13 @@
 
 陆淑烨：huangjingyuve  //添加JS，使网页拥有动态效果
 
-肖钰：itsxiaoyu //meishi.html
+肖钰：itsxiaoyu //detail.html
 
 张杰：Mr-ZhangJhao //修改页面代码，并更新 xuanze.html
 
 戴绵林：mianlin
 
-阮燕娟：Aera0729
+阮燕娟：Aera0729 //meishi.html
 
 肖凯：Blackbird971128
 
