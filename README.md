@@ -6,7 +6,7 @@
 
 刘瑾婷：Trista829   //将index中的href添加上，使之与其他网页链接
 
-陆淑烨：huangjingyuve
+陆淑烨：huangjingyuve  //添加JS，使网页拥有动态效果
 
 肖钰：itsxiaoyu
 
